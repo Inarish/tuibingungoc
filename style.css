@@ -1,0 +1,185 @@
+body{
+    background-color: black;
+}
+.tenor-gif-embed
+{
+    max-width: 10%;
+    position: relative;
+    left: 10rem;
+    top:5rem;
+}
+.title{
+    position: relative;
+    color: white;
+    text-align: center;
+    top:5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.meo{
+    max-width: 10%;
+    position: absolute;
+    top: 30rem;
+    left:20rem;
+}
+.cheems{
+    max-width: 10%;
+    position: absolute;
+    top:10rem;
+    left:60rem;
+}
+.container
+{
+    padding: 10rem;
+    margin-top: -15rem;
+}
+.slider-wrapper
+{
+    position: relative;
+    max-width: 20rem;
+    margin: 0 auto;
+}
+.slider {
+    display: flex;
+    aspect-ratio: 1279 / 2048;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 1rem;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 2rem;
+    position: absolute;
+    bottom:1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: violet;
+    opacity: 0.5;
+    transition: ease opacity 1;
+}
+.slider-nav a:hover{
+    opacity: 1;
+
+}
+.note{
+    color:white;
+    text-align: center;
+}
+.present{
+    position: relative;
+}
+.qua1{
+    position: absolute;
+    left:20rem;
+    bottom:-7rem;
+}
+.qua2{
+    position: absolute;
+    left:57rem;
+    bottom:-7rem;
+}
+.chonqua{
+    color: wheat;
+    position: absolute;
+    top:-12rem;
+    left: 38rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.chonquatext{
+    color: wheat;
+    position: relative;
+    top:-6rem;
+    left: 25rem;
+}
+        /* Style for the pop-up letter */
+        .popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #888;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            z-index: 1000;
+            background-image: url(paper-texture.jpg);
+            padding: 20px;
+            width: 300px;
+            height:20rem;
+            text-align: left;
+            font-size: 1.2rem;
+        }
+
+        /* Style for the background overlay */
+        .overlay {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            z-index: 999;
+        }
+
+        /* Close button styling */
+        .popup .close {
+            cursor: pointer;
+            color: red;
+            font-size: 20px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+
+        .popup2 {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #888;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            z-index: 1000;
+            background-image: url(paper-texture.jpg);
+            padding: 20px;
+            width: 70rem;
+            height:auto;
+            text-align: left;
+            font-size: 1.2rem;
+        }
+
+        /* Style for the background overlay */
+        .overlay2 {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            z-index: 999;
+        }
+
+        /* Close button styling */
+        .popup2 .close2 {
+            cursor: pointer;
+            color: red;
+            font-size: 20px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
