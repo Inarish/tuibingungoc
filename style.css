@@ -189,3 +189,9 @@
             right: 10px;
             top: 10px;
         }
+         .nhac{
+            position: fixed;
+            z-index: 60;
+            bottom:4rem;
+            color:white;
+        }
