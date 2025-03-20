@@ -1,5 +1,8 @@
-body{
-    background-color: black;
+.bg{
+    max-width: 120%;
+    position: absolute;
+    filter:blur(4px);
+    left:-18rem;
 }
 .tenor-gif-embed
 {
@@ -10,7 +13,7 @@ body{
 }
 .title{
     position: relative;
-    color: white;
+    color: black;
     text-align: center;
     top:5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -65,7 +68,7 @@ body{
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    background-color: violet;
+    background-color: rgb(209, 82, 209);
     opacity: 0.5;
     transition: ease opacity 1;
 }
@@ -76,6 +79,8 @@ body{
 .note{
     color:white;
     text-align: center;
+    z-index: 1000;
+    position: relative;
 }
 .present{
     position: relative;
@@ -91,15 +96,16 @@ body{
     bottom:-7rem;
 }
 .chonqua{
-    color: wheat;
+    color: blueviolet;
     position: absolute;
     top:-12rem;
     left: 38rem;
     font-size: 3rem;
     text-align: center;
+    -webkit-text-stroke: 1px gold;
 }
 .chonquatext{
-    color: wheat;
+    color: white;
     position: relative;
     top:-6rem;
     left: 25rem;
